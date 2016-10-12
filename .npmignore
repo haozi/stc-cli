@@ -7,3 +7,4 @@ ISSUE_TEMPLATE.md
 appveyor.yml
 README_zh-CN.md
 misc/
+yarn.lock
