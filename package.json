@@ -1,7 +1,7 @@
 {
   "name": "stc-cli",
   "description": "stc shell",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "haozime",
     "email": "syntaxRight@gmail.com"
@@ -27,28 +27,7 @@
     "flkit": "3.x.x",
     "jsonuri": "^1.5.6",
     "source-map-support": "^0.4.0",
-    "stc-cache": "1.x.x",
-    "stc-cluster": "1.x.x",
-    "stc-dep-parser": "1.x.x",
-    "stc-file": "1.x.x",
-    "stc-helper": "1.x.x",
-    "stc-log": "1.x.x",
-    "stc-plugin": "1.x.x",
-    "stc-plugin-invoke": "1.x.x",
-    "stc-uglify": "^1.0.6"
-  },
-  "devDependencies": {
-    "ava": "^0.14.0",
-    "babel-cli": "6.7.7",
-    "babel-core": "6.x.x",
-    "babel-eslint": "6.x.x",
-    "babel-plugin-transform-runtime": "6.x.x",
-    "babel-preset-es2015": "6.x.x",
-    "babel-preset-es2015-loose": "7.0.0",
-    "babel-preset-stage-1": "6.x.x",
-    "eslint": "2.8.0",
-    "istanbul": "0.4.0",
-    "stc": "^2.0.11",
+    "stc": "*",
     "stc-moveto": "*",
     "stc-gbk": "*",
     "stc-plugin": "*",
@@ -91,6 +70,18 @@
     "stc-css-autoprefixer": "*",
     "stc-sass": "*",
     "stc-dep-parser": "*"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "babel-cli": "6.7.7",
+    "babel-core": "6.x.x",
+    "babel-eslint": "6.x.x",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015": "6.x.x",
+    "babel-preset-es2015-loose": "7.0.0",
+    "babel-preset-stage-1": "6.x.x",
+    "eslint": "2.8.0",
+    "istanbul": "0.4.0"
   },
   "keywords": [],
   "repository": {
